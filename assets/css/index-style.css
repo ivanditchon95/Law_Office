@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #1d1d1d;
+}
+
+form {
+    display: flex;
+    height: 100vh;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-box {
+    width: 360px;
+    height: auto;
+    background: #272727;
+    padding: 40px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.login-box .header {
+    color: #f1f1f1;
+    font-family: 'Oswald';
+    letter-spacing: 3px;
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.login-box .border {
+    border: 1px solid #00ad3a;
+}
+
+.login-box .text-boxes {
+    margin-top: 30px;
+}
+
+.login-box .text-boxes .input-group {
+    margin-top: 20px;
+    display: flex;
+}
+
+.login-box .text-boxes .input-group .fas {
+    width: 50px;
+    line-height: 40px;
+    background: #dadada;
+    border-radius: 5px 0 0 5px;
+    -webkit-border-radius: 5px 0 0 5px;
+    -moz-border-radius: 5px 0 0 5px;
+    -ms-border-radius: 5px 0 0 5px;
+    -o-border-radius: 5px 0 0 5px;
+}
+
+.login-box .text-boxes .input-group input {
+    height: 40px;
+    width: 100%;
+    border-radius: 0 5px 5px 0;
+    -webkit-border-radius: 0 5px 5px 0;
+    -moz-border-radius: 0 5px 5px 0;
+    -ms-border-radius: 0 5px 5px 0;
+    -o-border-radius: 0 5px 5px 0;
+    outline: none;
+    border: none;
+    padding: 0 10px;
+}
+
+.login-btn {
+    margin-top: 30px;
+}
+
+.login-btn input[type="submit"] {
+    width: 100%;
+    padding: 8px 8px;
+    font-family: 'Montserrat';
+    font-size: 18px;
+    color: #f1f1f1;
+    border-radius: 5px;
+    -webkit-border-radius: ;
+    -moz-border-radius: ;
+    -ms-border-radius: ;
+    -o-border-radius: ;
+    border: 1px solid #7c7c7c;
+    cursor: pointer;
+    background: linear-gradient(160deg, #00290e, #005315);
+}
+
+.login-btn input[type="submit"]:hover {
+    background: linear-gradient(80deg, #017527, #002409);
+}
